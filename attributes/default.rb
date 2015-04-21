@@ -9,12 +9,12 @@ default[:flink][:user]                             = "flink"
 default[:flink][:group]                            = node[:hadoop][:group]
 
 #default[:flink][:version]                          = "0.9.0-incubating-bin-hadoop2-yarn" 
-default[:flink][:version]                          = "0.8.1" 
+default[:flink][:version]                          = "0.9.0"
 #default[:flink][:name]                             = "yarn-0.9.0-incubating" 
 default[:flink][:dir] 	                           = "/usr/local"
 default[:flink][:home]                             = "#{node[:flink][:dir]}/flink-#{node[:flink][:version]}"
 #default[:flink][:url]                              = "http://apache.mirrors.spacedump.net/flink/flink-#{node[:flink][:version]}/#{node[:flink][:version]}-bin-hadoop2.tgz"
-default[:flink][:url]                              = "#{node[:download_url]}/flink-#{node[:flink][:version]}-bin-hadoop2.tgz"
+default[:flink][:url]                              = "https://dl.dropboxusercontent.com/u/51507/flink-0.9.0-bin-hadoop2.tgz"
 default[:flink][:checksum]                         = ""
 
 
