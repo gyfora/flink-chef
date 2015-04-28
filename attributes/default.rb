@@ -14,7 +14,7 @@ default[:flink][:version]                          = "0.9.0"
 default[:flink][:dir] 	                           = "/usr/local"
 default[:flink][:home]                             = "#{node[:flink][:dir]}/flink-#{node[:flink][:version]}"
 #default[:flink][:url]                              = "http://apache.mirrors.spacedump.net/flink/flink-#{node[:flink][:version]}/#{node[:flink][:version]}-bin-hadoop2.tgz"
-default[:flink][:url]                              = "https://dl.dropboxusercontent.com/u/51507/flink-0.9.0-bin-hadoop2.tgz"
+default[:flink][:url]                              = "https://copy.com/epHOuk1qFcoYIxhw/flink-0.9.0-bin-hadoop2.tgz"
 default[:flink][:checksum]                         = ""
 
 
